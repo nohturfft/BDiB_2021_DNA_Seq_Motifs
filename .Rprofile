@@ -26,7 +26,7 @@ if (grepl("Linux stats3", system("uname -a", intern=T))) {
   stop("For this session it is preferred if you use RStudio Server Pro at https://stats3.sgul.ac.uk/rstudio/")
 }
 
-pacman::p_unload(package=c("all")) # unload packages
+pacman::p_unload(pacman, negate=TRUE) # unload packages
 library(rmarkdown)
 
 message("\nSession info:")
