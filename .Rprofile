@@ -1,5 +1,5 @@
 message("Hello !")
-message("Welcome to the Big Data in Biomedicine 'ChIP-Seq' Session.")
+message("Welcome to this Big Data in Biomedicine session on DNA sequence motifs.")
 
 if (grepl("Linux stats3", system("uname -a", intern=T))) {
   if (R.version$version.string != "R version 3.5.3 (2019-03-11)"){
