@@ -5,6 +5,7 @@
 library(magrittr)
 library(dplyr)
 library(readr)
+library(dplyr)
 requireNamespace("pryr")
 
 library(parallel) # required for BiocGenerics
